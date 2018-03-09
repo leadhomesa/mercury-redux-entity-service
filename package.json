@@ -1,6 +1,6 @@
 {
   "name": "@leadhome/entity",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create an entity definition capable of loading resources as a list or by ID with smart caching",
   "main": "dist/index.js",
   "scripts": {
