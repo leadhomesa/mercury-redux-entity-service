@@ -1,0 +1,34 @@
+{
+  "name": "@leadhome/entity",
+  "version": "1.0.0",
+  "description": "Create an entity definition capable of loading resources as a list or by ID with smart caching",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src -d dist/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/leadhomesa/mercury-redux-entity-service.git",
+  "author": "Justus Burger <justusburger.co.za>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leadhomesa/mercury-redux-entity-service/issues"
+  },
+  "homepage": "https://github.com/leadhomesa/mercury-redux-entity-service#readme",
+  "dependencies": {
+    "@leadhome/query": "^1.0.2",
+    "@leadhome/status": "^1.0.3",
+    "immutable": "^3.8.2",
+    "react": "^16.2.0",
+    "react-redux": "^5.0.7",
+    "redux-actions": "^2.3.0",
+    "redux-saga": "^0.16.0",
+    "reselect": "^3.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
